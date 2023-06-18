@@ -25,7 +25,7 @@ export class WebsiteModule implements OnModuleInit {
     }
 
     onModuleInit(): any {
-        console.log('WebsiteModule onModuleInit');
+        console.log('WebsiteModule onModuleInit fired');
         WebsiteModule.moduleRef = this.m;
     }
 
